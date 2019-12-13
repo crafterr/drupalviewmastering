@@ -1,0 +1,17 @@
+uuid: d533f7a0-f048-4bff-a087-5cc7df8069d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Open House'
+type: open_house
+description: 'Open House'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

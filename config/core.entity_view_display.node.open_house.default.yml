@@ -1,0 +1,39 @@
+uuid: 208ac446-c750-4433-9b6e-69a3224ccdf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.open_house.body
+    - field.field.node.open_house.field_open_house_end
+    - node.type.open_house
+  module:
+    - datetime
+    - text
+    - user
+id: node.open_house.default
+targetEntityType: node
+bundle: open_house
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_open_house_end:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

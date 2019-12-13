@@ -1,0 +1,17 @@
+uuid: f779a15f-c30b-4298-b1a3-23eed3e44b3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Realtor
+type: realtor
+description: 'Pośrednik w handlu nieruchomościami'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,18 @@
+uuid: 6184e8df-e0e2-4d43-8de5-64c173932caa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.realtor
+id: node.realtor.title
+field_name: title
+entity_type: node
+bundle: realtor
+label: 'Full Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

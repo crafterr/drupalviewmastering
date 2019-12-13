@@ -1,0 +1,24 @@
+uuid: c4901e1b-e71a-430c-af0c-cdfd3aed5615
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_open_house_end
+    - node.type.open_house
+  module:
+    - datetime
+id: node.open_house.field_open_house_end
+field_name: field_open_house_end
+entity_type: node
+bundle: open_house
+label: 'Open House End'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

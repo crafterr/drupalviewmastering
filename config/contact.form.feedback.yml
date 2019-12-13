@@ -1,0 +1,14 @@
+uuid: 57cff652-c456-4423-8bf0-6cc4a2578b73
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - adam@onet.pl
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
